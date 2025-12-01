@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Formulario</title>
+        </head>
+        <body>
+            <form action="http://ncoge.com/phps/formulario.php" method="post">
+            <table height="26%" width="100%">
+                <tr heigth="25%" width="25%">
+                    <td valign="top">
+                        <fieldset>
+                        &ensp; <legend><b>Datos personales:</b></legend>
+                         &ensp; Nombre: <input type="text" name="Nombre">
+                            <br>
+                            <br>
+                            &ensp; Apellidos: <input type="text" name="Apellidos">
+                            <br>
+                            <br>
+                            &ensp; Correo: <input type="email" name="Correo">
+                            <br>
+                            <br>
+                            <label for="hobbies"></label>
+                            &ensp; hobbies
+                            <textarea name="hobbies"></textarea>
+                            <br>
+                            <br>
+                            <br>
+                        </fieldset>
+                    </td>
+                    <td> 
+                        <fieldset>
+
+                        &ensp; <legend><b>Idiomas</b></legend>
+                        Puntúa tú nivel de idiomas de 1 a 5:
+                        <br>
+                        <br>
+                        &ensp; <b>Inglés:</b> 
+                        1 <input type="radio" name="ingles" value="1"> 
+                        2 <input type="radio" name="ingles" value="2"> 
+                        3 <input type="radio" name="ingles" value="3"> 
+                        4 <input type="radio" name="ingles" value="4"> 
+                        5 <input type="radio" name="ingles" value="5">
+                        <br>
+                        <br>
+                        &ensp; <b>Francés:</b>
+                        1 <input type="radio" name="frances" value="1">
+                        2 <input type="radio" name="frances" value="2">
+                        3 <input type="radio" name="frances" value="3">
+                        4 <input type="radio" name="frances" value="4">
+                        5 <input type="radio" name="frances" value="5">
+                        <br>
+                        <br>
+                        &ensp; <b>Alemán:</b>
+                        1 <input type="radio" name="aleman" value="1">
+                        2 <input type="radio" name="aleman" value="2">
+                        3 <input type="radio" name="aleman" value="3">
+                        4 <input type="radio" name="aleman" value="4">
+                        5 <input type="radio" name="aleman" value="5">
+                        </fieldset>
+
+                        <fieldset> 
+                            <legend><b>Domino los siguientes programas:</b></legend>
+                                
+                            <table  width="60%" align="CENTER">
+                                <tr>                                                                
+                                    <td>
+                                        Write <input type="checkbox" name="programa_uno" value="Write" > &ensp; 
+                                        <BR>Calc <input type="checkbox" name="programa_tres" value="Calc" >
+                                    </td>
+                                    <td>
+                                        Base <input type="checkbox" name="programa_dos" value="Base" > &ensp;
+                                        <BR>Impress <input type="checkbox" name="programa_cuatro" value="Impress">
+                                    </td>                                
+                                </tr>
+                            </table>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend><b>Trabajo con el siguiente Sistema Operativo:</b></legend>
+                            <label for="so"></label>
+                            <select name="so">
+                                <option value="Linux">Linux</option>
+                                <option value="Windows">Windows</option>
+                                <option value="Lliurex">Lliurex</option>
+                                    <option value="Kali_linux">Kali Linux</option>
+                            </select>
+                            </td>
+                        </fieldset>
+                        </tr>   
+                            <tr>
+                                <td rowspan="5">
+                                    <div align="right">
+                                        <input type="reset" name="Enviar1" value="Reiniciar">
+                                         <input type="image" name="Enviar2" src="./Image/what-does-it-mean-when-the-send-button-is-green-instead-of-v0-w39kucuqzvwc1.webp" width="10%"/>
+                                    </div>  
+                                </td>
+                            </tr>
+
+                        </table>
+            </form>            
+            </table>
+        </body>
+    </html>
