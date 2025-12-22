@@ -45,7 +45,7 @@ footer {
     border:black 4px solid;
     border-radius: 3%;
     /* 7- tamanyo */
-    
+    width: 80%;
     /* Se utiliza en imágenes y videos 
     para asegurarse de que siempre llenen 
     completamente el contenedor, manteniendo
@@ -124,7 +124,7 @@ li {
 }
 
 @media all and (max-width: 700px) {
-    .youtuber , .footer {
+    .youtuber, footer {
         /* 17- cambia el color al BORDE*/
         border-color: red; 
     }
@@ -136,4 +136,4 @@ li {
         /* 19- cambia el color al boton*/
         background-color: #F2B207;
     }   
-}
+} 
