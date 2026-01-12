@@ -117,6 +117,7 @@ p {
   /*1: */
   text-align: center;
   padding-bottom: 5px;
+  float: left;
 }
 
 #imageRight {
@@ -128,6 +129,7 @@ p {
   /*1: */
   text-align: center;
   padding-bottom: 5px;
+  float: right;
 }
 
 #textMain {
@@ -136,7 +138,7 @@ p {
  */
 
   /* necesitas 1 instruccion*/
-  /*1: */
+  /*1: */clear: left;
 }
 
 #imageToHide {
@@ -148,6 +150,7 @@ p {
   /*1: */  
   text-align: center;
   margin-bottom: 40px;
+  float: left;
 }
 
 #textCookie {
@@ -177,7 +180,7 @@ p {
  */
 
   /* necesitas 2 instruccion*/
-  /*1: */  
+  /*1: */  overflow-y: scroll;
   /*2: */  
   
   height: 250px;
