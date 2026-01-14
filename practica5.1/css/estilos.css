@@ -163,10 +163,10 @@ p {
  */
 
   /* necesitas 4 instrucciones. 3 son distancia a los bordes :)*/
-  /*1: */ overflow: auto;
-  /*2: */ position: sticky;
+  /*1: */ left: 11%;
+  /*2: */ position: fixed;
   /*3: */ top: 30%;
-  /*4: */ width: 81%; 
+  /*4: */ width: 80%; 
   border:2px solid red;
   background-color: white;
   margin-bottom: 5px;
@@ -224,6 +224,7 @@ p {
     /*1: */
     text-align: center;
     padding-bottom: 5px;
+    float: none;
   }
 
   #imageRight {
@@ -231,10 +232,11 @@ p {
     Punto 7.1: Barra de menu siempre estara 
     */
     /* necesitas 1 instruccion*/
-    /*1: */position: fixed ;
+    /*1: */
     text-align: center;
     clear: both;
   padding-bottom: 5px;
+  float: none;
   }
   
   #textCentral {
@@ -246,10 +248,10 @@ p {
     Punto 7.2: Barra de menu siempre estara 
     */
     /* necesitas 1 instruccion*/
-    /*1: */position: fixed;
-
+    /*1: */
     text-align: center;
     margin-bottom: 40px;
+    float: none;
   }
   
   #textOverflow {
@@ -267,6 +269,6 @@ p {
     /*
     Cambio el margen para que no lo tape el menu
     */
-    margin-top: 100px;
-  }
+    margin-top: 70px;
+  } 
 }
