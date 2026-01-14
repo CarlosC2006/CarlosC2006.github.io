@@ -164,7 +164,7 @@ p {
 
   /* necesitas 4 instrucciones. 3 son distancia a los bordes :)*/
   /*1: */ left: 11%;
-  /*2: */ position: fixed;
+  /*2: */ position: absolute;
   /*3: */ top: 30%;
   /*4: */ width: 80%; 
   border:2px solid red;
