@@ -3,11 +3,11 @@
 }
 
 body {
-  background: url('../images/fondo.jpg');
+  background: url('../images/marmolfondo.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  font-family: 'Indie Flower', cursive;
+  font-family:Verdana, Geneva, Tahoma, sans-serif, cursive;
 }
 
 h1, h2 {
@@ -15,7 +15,7 @@ h1, h2 {
 }
 
 img {
-  border: dashed 5px #FF9900;
+  border: dashed 5px;
   margin: 10px;
 }
 
@@ -30,9 +30,9 @@ p {
 #header {
   margin-top: 35px;
   text-align: center;
-  background-color: #FF9900;
-  border-bottom: 5px solid #6599FF;
-  border-top: 5px solid #6599FF;
+  background-color: #BD2A2A;
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
   color: white;
   padding-top: 10px;
 }
@@ -50,15 +50,15 @@ p {
   /*2: */ top: 0px;
   /*3: */ width: 100%;
   text-align: center;  
-  background-color: #097054;
-  border: 1px solid #FF9900;
+  background-color: grey;
+  border: 1px solid white;
   font-family: 'Pacifico', cursive;
   font-size: 1.2em;
 }
 
 #menu a{
   color: white;
-  text-decoration: none;
+  text-decoration: none ;
 }
 
 
@@ -72,8 +72,8 @@ p {
   Punto 1: Los enlaces cambian de color de fondo y estan subrayados de color azul
   */
   /* necesitas 2 instrucciones*/
-  /*1: */background-color: orange;
-  /*2: */text-decoration: underline blue;
+  /*1: */background-color: #BD2A2A;
+  /*2: */text-decoration: underline black;
 }
 
 #footer{
@@ -85,7 +85,7 @@ p {
   /*2: */bottom: 0px;
   /*3: */width: 100%;
   
-  background-color: #097054;
+  background-color: #BD2A2A;
   text-align: center;
   color: white;
   border-top: 5px solid black;
@@ -201,7 +201,7 @@ p {
 }
 
 .button {
-  	background-color: #097054; /* Green */
+  	background-color: #D5001C; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
