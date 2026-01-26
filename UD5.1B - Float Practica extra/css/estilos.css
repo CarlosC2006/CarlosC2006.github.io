@@ -16,7 +16,8 @@ h1, h2 {
 
 img {
   border: dashed 5px;
-  margin: 10px;
+  margin: 50px;
+  border: none;
 }
 
 ul {
@@ -37,9 +38,7 @@ p {
   padding-top: 10px;
 }
 
-#content{
-  
-}
+
 
 #menu {
   /*
@@ -185,21 +184,43 @@ p {
   
   height: 250px;
   text-align: justify;
-  border: 5px solid black;
+  border: 5px dashed black;
   background-color: white;
   padding: 20px;
   margin-right: 20px;
 }
 
-#textCentral {
+.textCentral {
+  width: 60%;
   margin-top: 10px;
-  padding: 15px;
-  border: 5px dashed black;
+  padding: 20px;
   background-color: white;
-  margin: 10px 250px ;
-  border-radius: 30px 30px 30px 30px ;     /* resto */
+  margin: 50px 200px ;
+  height: 10px;
+  /* border-radius: 30px 30px 30px 30px ; */
+  overflow-y: scroll;
+  overflow-x: hidden; 
+  border: 5px dashed black; 
+}
+.cont {
+  overflow: auto;
+  background-color: white;
+}
+.cont .logo{
+  width: 20%;
+  /* height: 200px; */
+  border: 5px dashed black;
+  margin: 20px auto;
+  background-color: white;
+  padding: 10px;
+  float: right;
 }
 
+#logoIMG {
+  width: 200px;
+
+
+}
 .button {
   	background-color: #D5001C; /* Green */
     border: none;

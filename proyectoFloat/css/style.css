@@ -1,0 +1,205 @@
+body {
+  background: url('../images/marmolfondo.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family:Verdana, Geneva, Tahoma, sans-serif, cursive;
+}
+
+#menu{
+    border: 5px red solid;
+     /*
+  Punto 1: Barra de menu siempre estara 
+  */ 
+  /* necesitas 3 instrucciones*/
+  /*1: */ position: fixed;
+  /*2: */ top: 0px;
+  /*3: */ width: 100%;
+  text-align: center;  
+  background-color: #BD2A2A;
+  border: 1px solid white;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.2em;
+}
+#menu a{
+  color: white;
+  text-decoration: none ;
+}
+
+
+#menu li{
+  display: inline;
+  padding-left: 5px;  
+}
+
+#menu li a:hover{
+  /*
+  Punto 1: Los enlaces cambian de color de fondo y estan subrayados de color azul
+  */
+  /* necesitas 2 instrucciones*/
+  /*1: */background-color: #BD2A2A;
+  /*2: */text-decoration: underline black;
+}
+
+#header{
+    border: 5px green solid;
+    margin-top: 35px;
+    text-align: center;
+    background-color: #BD2A2A;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    color: white;
+    padding-top: 10px;
+
+}
+#main {
+    border: 5px orange solid;
+    background-color: orange;
+}
+#footer {
+    border: 5px black solid;
+}
+#info {
+    border: 5px gray solid;
+    width: 75%;
+    float: left;
+}
+#uno {
+    border: 5px blue dashed;
+    overflow: auto;
+    background-color: white;
+}
+#unoIzq {
+    border: 5px lightcoral solid;
+    float: left;
+    width: 70%;
+    overflow-x: scroll;
+    height: 300px;
+}
+
+#unoDer {
+    border: 5px lightblue solid;
+    width: 25%;
+    float: right;
+}
+#unoDer img {
+     width: 80%; 
+}
+
+#dos {
+    clear: both;
+    border: 5px black dashed;
+    overflow: auto;
+    background-color: white;
+}
+#dosIzq {
+    border: 5px lightcyan solid;
+    float: left;
+    width: 20%;
+    
+}
+#dosDer {
+    border: 5px lightgreen solid;
+    float: right;
+    width: 70%;
+    overflow-x: scroll;
+    height: 300px;
+}
+#menuLateral {
+    border: 5px solid lightslategray;
+    float: right;
+    width: 20%;
+    background-image: url(../images/marmolfondo.jpg);
+    height: 1000px;
+    text-align: center;
+}
+
+li {
+    list-style: none; 
+}
+
+#cookieEU {
+ /*
+  Punto 4: La capa esta posicionada casi al centro de la pantalla. Se diferencia del menu y del footer en que NO se queda fija al hacer scroll de la pagina.
+ */
+
+  /* necesitas 4 instrucciones. 3 son distancia a los bordes :)*/
+  /*1: */ left: 11%;
+  /*2: */ position: absolute;
+  /*3: */ top: 30%;
+  /*4: */ width: 80%; 
+  border:2px solid red;
+  background-color: white;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  box-shadow: 2px 2px 50px black;
+  text-align: center;
+}
+#textCookie {
+  text-align: center;
+}
+.button {
+  	background-color: #D5001C; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button:hover {
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#footer{
+  /*
+  Punto 6: Barra de pie de pagina siempre estara 
+  */
+  /* necesitas 3 instrucciones*/
+  /*1: */position: fixed;
+  /*2: */bottom: 0px;
+  /*3: */width: 100%;
+  
+  background-color: #BD2A2A;
+  text-align: center;
+  color: white;
+  border-top: 5px solid black;
+  clear: both;
+}
+#footer a{
+  color: white;
+  text-decoration: none;
+}
+
+@media all and (max-width: 500px) {
+
+    #menuLateral{
+        position: static;
+        margin-top: 5%;
+        width: 90%;
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 10px;
+        height: 600px;
+
+    }
+
+    #info, #unoIzq, #unoDer, #dosIzq, #dosDer {
+        float: none;
+        width: 100%;
+    }
+
+
+    #uno {
+        
+    }
+
+
+    #unoIzq, #dosDer {
+        height: auto;
+        overflow: visible;
+    }
+
+    
+
+}
