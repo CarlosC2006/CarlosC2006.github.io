@@ -42,7 +42,6 @@ body {
 }
 
 #header{
-    border: 5px green solid;
     margin-top: 35px;
     text-align: center;
     background-color: #BD2A2A;
@@ -53,24 +52,23 @@ body {
 
 }
 #main {
-    border: 5px orange solid;
-    background-color: orange;
+    border: 5px  solid; 
 }
 #footer {
-    border: 5px black solid;
+    border: 5px black solid; 
 }
 #info {
-    border: 5px gray solid;
+     border: 5px gray solid; 
     width: 75%;
     float: left;
 }
 #uno {
-    border: 5px blue dashed;
+     border: 5px dashed; 
     overflow: auto;
     background-color: white;
 }
 #unoIzq {
-    border: 5px lightcoral solid;
+    border: 5px dashed; 
     float: left;
     width: 70%;
     overflow-x: scroll;
@@ -78,7 +76,6 @@ body {
 }
 
 #unoDer {
-    border: 5px lightblue solid;
     width: 25%;
     float: right;
 }
@@ -88,25 +85,24 @@ body {
 
 #dos {
     clear: both;
-    border: 5px black dashed;
+    border: 5px black dashed; 
     overflow: auto;
     background-color: white;
 }
 #dosIzq {
-    border: 5px lightcyan solid;
+    border: 5px  none; 
     float: left;
     width: 20%;
     
 }
 #dosDer {
-    border: 5px lightgreen solid;
     float: right;
     width: 70%;
     overflow-x: scroll;
     height: 300px;
 }
 #menuLateral {
-    border: 5px solid lightslategray;
+     border: 5px solid;  
     float: right;
     width: 20%;
     background-image: url(../images/marmolfondo.jpg);
@@ -190,8 +186,9 @@ li {
     }
 
 
-    #uno {
-        
+    #unoDer {
+        width: 100%;
+
     }
 
 
@@ -199,7 +196,5 @@ li {
         height: auto;
         overflow: visible;
     }
-
-    
 
 }
