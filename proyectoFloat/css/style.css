@@ -207,7 +207,8 @@ li {
     #menu  {
         width: 100%;
         text-align: center;
-        position: absolute;
+        top: 0px;
+        bottom: 91%;
 
     }
 
