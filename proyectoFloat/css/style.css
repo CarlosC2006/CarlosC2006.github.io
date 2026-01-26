@@ -7,7 +7,7 @@ body {
 }
 
 #menu{
-    border: 5px red solid;
+    border: 5px red solid; 
      /*
   Punto 1: Barra de menu siempre estara 
   */ 
@@ -63,7 +63,7 @@ body {
     float: left;
 }
 #uno {
-     border: 5px dashed; 
+    border: 5px dashed; 
     overflow: auto;
     background-color: white;
 }
@@ -102,7 +102,7 @@ body {
     height: 300px;
 }
 #menuLateral {
-     border: 5px solid;  
+    border: 5px solid;  
     float: right;
     width: 20%;
     background-image: url(../images/marmolfondo.jpg);
@@ -169,20 +169,27 @@ li {
 
 @media all and (max-width: 500px) {
 
-    #menuLateral{
-        position: static;
-        margin-top: 5%;
+    #menuLateral {
         width: 90%;
         text-align: center;
-        margin-bottom: 30px;
-        padding: 10px;
-        height: 600px;
+        float: none;
+        clear: both;
+        padding: 20px 
 
+
+    }
+
+    #menuLateral li {
+        display: inline-block;
+        text-align: center;
+        padding: 10px;
+        margin-left: 10px;
     }
 
     #info, #unoIzq, #unoDer, #dosIzq, #dosDer {
         float: none;
         width: 100%;
+        clear: both;
     }
 
 
@@ -195,6 +202,13 @@ li {
     #unoIzq, #dosDer {
         height: auto;
         overflow: visible;
+    }
+
+    #menu  {
+        width: 100%;
+        text-align: center;
+        position: absolute;
+
     }
 
 }
