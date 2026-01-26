@@ -7,7 +7,7 @@ body {
 }
 
 #menu{
-    border: 5px red solid; 
+    border: 5px red soli transparent; 
      /*
   Punto 1: Barra de menu siempre estara 
   */ 
@@ -45,30 +45,30 @@ body {
     margin-top: 35px;
     text-align: center;
     background-color: #BD2A2A;
-    border-bottom: 5px solid black;
-    border-top: 5px solid black;
+    border-bottom: 5px solid black transparent;
+    border-top: 5px solid black transparent;
     color: white;
     padding-top: 10px;
 
 }
 #main {
-    border: 5px  solid; 
+    border: 5px  solid transparent; 
 }
 #footer {
-    border: 5px black solid; 
+    border: 5px black solid transparent; 
 }
 #info {
-     border: 5px gray solid; 
+    border: 5px gray solid transparent; 
     width: 75%;
     float: left;
 }
 #uno {
-    border: 5px dashed; 
+    border: 5px dashed transparent; 
     overflow: auto;
     background-color: white;
 }
 #unoIzq {
-    border: 5px dashed; 
+    border: 5px dashed transparent; 
     float: left;
     width: 70%;
     overflow-x: scroll;
@@ -85,12 +85,12 @@ body {
 
 #dos {
     clear: both;
-    border: 5px black dashed; 
+    border: 5px black dashed transparent; 
     overflow: auto;
     background-color: white;
 }
 #dosIzq {
-    border: 5px  none; 
+    border: 5px  none transparent; 
     float: left;
     width: 20%;
     
@@ -102,7 +102,7 @@ body {
     height: 300px;
 }
 #menuLateral {
-    border: 5px solid;  
+    border: 5px solid transparent;  
     float: right;
     width: 20%;
     background-image: url(../images/marmolfondo.jpg);
@@ -124,7 +124,7 @@ li {
   /*2: */ position: absolute;
   /*3: */ top: 30%;
   /*4: */ width: 80%; 
-  border:2px solid red;
+  border:2px solid red transparent;
   background-color: white;
   margin-bottom: 5px;
   padding-bottom: 5px;
@@ -159,7 +159,7 @@ li {
   background-color: #BD2A2A;
   text-align: center;
   color: white;
-  border-top: 5px solid black;
+  border-top: 5px solid black transparent;
   clear: both;
 }
 #footer a{
@@ -167,19 +167,28 @@ li {
   text-decoration: none;
 }
 
+#menuLateral2 {
+    display: none;
+}
+
 @media all and (max-width: 500px) {
 
     #menuLateral {
+        display: none;
+    }
+
+    #menuLateral2 {
+        display: block;
         width: 90%;
         text-align: center;
         float: none;
         clear: both;
-        padding: 20px 
+        padding: 20px; 
 
 
     }
 
-    #menuLateral li {
+    #menuLateral2 li {
         display: inline-block;
         text-align: center;
         padding: 10px;
